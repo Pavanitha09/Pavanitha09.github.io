@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+    .row {
+      display: flex;
+    }
+    .column {
+    flex: 50%;
+    padding: 5px;
+    }
+    </style>
+    <title>Overview</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <a href="index.html"><i class="fa fa-home" style="color:#9ACD32"></i> Home</a>
+      <a href="components.html"><i class="fa fa-list" style="color:#9ACD32"></i> Project Components</a>
+      <a href="overview.html"><i class="fa fa-edit" style="color:#9ACD32"></i> Project Overview</a>
+      <a href="workplan.html"><i class="fa fa-calendar" style="color:#9ACD32"></i> Workplan</a>
+      <a href="teaminfo.html"><i class="fa fa-users" style="color:#9ACD32"></i> Team</a>
+    </div>
+    <h2 style="color:#DAA520">PROJECT OVERVIEW:</h2>
+    <h3 style="text-align:center">APPLICATION LOGO</h3>
+    <div class="image">
+    <img src="logo.png" alt="" width="450" height="450" style="border-radius:50%">
+    </div>
+    <h3 style="color:#EE82EE">Implementation:</h3>
+    <ul>
+      <li>Once the user opens the website, login page is displayed where the user is supposed to enter the details and login if already registered.The password entered by the user is checked with the password which is stored in the database under the given user's email.</li><br>
+      <div class="image">
+      <img src="login.png" alt="" width="700" height="350">
+      </div>
+      <br>
+      <li>If the user is not registered, then one can click on signup now button and then the signup page is displayed.The details entered by the user are stored in the database and the clicking signup button takes user to the login page.</li>
+      <br>
+      <div class="image">
+      <img src="signup.png" alt="" width="700" height="350">
+      </div>
+      <br>
+      <li>If login is successful, an alert box saying login successful is displayed which takes to the home page of the application and if login is not successful it is redirected back to the login page.</li>
+      <br>
+      <div class="row">
+        <div class="column">
+          <img src="login_success.png" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="login_notsuccess.png" alt="" style="width:100%">
+        </div>
+      </div>
+      <br><br>
+      <li>Homepage:</li>
+      <br>
+      <div class="image">
+      <img src="home.png" alt="" width="775" height="350">
+      </div>
+      <li>Further more, if we click on each one of profile,chat,posts etc, the corresponding page is displayed.</li>
+    </ul>
+  </body>
+</html>
