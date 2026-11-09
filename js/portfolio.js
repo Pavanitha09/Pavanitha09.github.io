@@ -89,7 +89,7 @@
 
   /* ---------- keyboard hint text ---------- */
   var hint = isMac ? '⌘ K' : 'Ctrl K';
-  $('#kbd-hint').textContent = hint;
+  var kh = $('#kbd-hint'); if (kh) kh.textContent = hint;
   var kf = $('#kbd-foot'); if (kf) kf.textContent = hint;
 
   /* ---------- nav ---------- */
