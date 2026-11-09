@@ -417,3 +417,7 @@ h2.title em { background: linear-gradient(100deg, var(--accent), var(--accent-2)
 .chip.c-neutral { --c: var(--muted); }
 .legend { margin-bottom: 4px; }
 :root { --c-lang: #0f8a5f; --c-genai: #7c4ddb; --c-ml: #d6457f; --c-fs: #2b7de0; --c-data: #d08a1f; }
+
+/* italic gradient text: give the glyph overhang room so the last letter isn't clipped */
+h1 .grad { display: inline-block; padding: 0 .14em .06em 0; margin-right: -.14em; }
+h2.title em { display: inline-block; padding: 0 .14em .04em 0; margin-right: -.14em; }
